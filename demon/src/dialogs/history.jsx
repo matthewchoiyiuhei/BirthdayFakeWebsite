@@ -5,7 +5,7 @@ const { Dialog, Layout, Button } = ui;
 
 
 const style = {
-  fontFamily: ['微软雅黑', 'PingFang SC'],
+  fontFamily: ['demon', 'PingFang SC'],
   fontSize: 22,
   fontStyle: 'normal',
   lineHeight: 42,

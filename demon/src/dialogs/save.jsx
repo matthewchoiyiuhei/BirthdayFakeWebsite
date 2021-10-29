@@ -7,14 +7,14 @@ const { Button } = ui;
 
 
 const style = {
-  fontFamily: ['微软雅黑', 'PingFang SC'],
+  fontFamily: ['demon', 'PingFang SC'],
   fontSize: 20,
   fontStyle: 'normal',
   lineHeight: 40,
   fill: '#fff',
 };
 const numStyle = {
-  fontFamily: ['微软雅黑', 'PingFang SC'],
+  fontFamily: ['demon', 'PingFang SC'],
   fontSize: 20,
   fontStyle: 'normal',
   lineHeight: 20,

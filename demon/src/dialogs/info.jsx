@@ -246,9 +246,9 @@ limitations under the License.
           fillColor={0xffffff} fillAlpha={0} padding={[0, 0, 0, 0]} interval={0}
         >
           <Text text={'AVG.js'}
-            style={{ fontSize: 48, fill: '#000', fontFamily: ['微软雅黑', 'PingFang SC'], lineHeight: 80 }}/>
+            style={{ fontSize: 48, fill: '#000', fontFamily: ['demon', 'PingFang SC'], lineHeight: 80 }}/>
           <Text text={TEXT} 
-            style={{ fontSize: 24, fill: '#000', fontFamily: ['微软雅黑', 'PingFang SC'], lineHeight: 28 }}/>
+            style={{ fontSize: 24, fill: '#000', fontFamily: ['demon', 'PingFang SC'], lineHeight: 28 }}/>
 
         </Layout>
       </Dialog>

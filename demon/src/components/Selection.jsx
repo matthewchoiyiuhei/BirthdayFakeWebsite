@@ -1,13 +1,13 @@
 import { React, Component, components, core, ui } from 'avg-core';
 
-const { Layer, Text } = components;
+const { Layer, Text, Image } = components;
 const { Button } = ui;
 
 const style = {
-  fontFamily: ['微软雅黑', 'PingFang SC'],
-  fontSize: 30,
+  fontFamily: ['demon', 'PingFang SC'],
+  fontSize: 50,
   lineHeight: 30,
-  fill: '#fff',
+  fill: '#000',
 };
 
 class Textbutton extends Component {
@@ -15,10 +15,11 @@ class Textbutton extends Component {
     return (
       <Button
         {...this.props}
-        src={'selection_bar.png'} x={this.props.x} y={this.props.y} anchor={[0,0]}
+        src={'option/option_button.gif'} x={this.props.x} y={this.props.y} anchor={[0,0]}
         onClick={this.props.onClick} onTap={this.props.onTap} lite={false}
+        
       >
-        <Text text={this.props.text} style={style} x={271} y={49} anchor={this.props.anchor} />
+        <Text text={this.props.text} style={style} x={280} y={185} anchor={this.props.anchor} />
       </Button>
     );
   }

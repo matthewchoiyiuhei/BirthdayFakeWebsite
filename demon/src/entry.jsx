@@ -28,6 +28,8 @@ const render = (process.env.NODE_ENV === 'development')
     core.plugins.audio.channelVolume('button', 0.8);
     core.plugins.audio.channelVolume('bgm', 0.8);
     core.plugins.audio.channelVolume('se', 0.8);
+
+    console.log("scale: ",innerWidth, innerHeight)
     await core.init(1920, 1080, {
       fitWindow: true,
       assetsPath: 'assets',
@@ -35,7 +37,6 @@ const render = (process.env.NODE_ENV === 'development')
     });
     core.installPlugin(Fullscreen);
     core.installPlugin(History);
-
     render(Game);
     if (module.hot) {
       module.hot.accept('./game', () => { render(Game); });

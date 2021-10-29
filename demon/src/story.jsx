@@ -24,6 +24,7 @@ export default class CustomScene extends Component {
     this.state = {
       loading: false,
       progress: 0,
+      shaking: false
     };
 
     this.buttonBarVisible = false;
@@ -32,6 +33,16 @@ export default class CustomScene extends Component {
     return {
       location: this.props.location
     };
+  }
+  loop(){
+    console.log(this.state.shaking)
+    if(this.state.shaking){
+      core.stage.transform.position.x = -50+Math.random()*100
+      core.stage.transform.position.y = -50+Math.random()*100
+    }else{
+      core.stage.transform.position.x = 0
+      core.stage.transform.position.y = 0
+    }
   }
   async componentDidMount() {
     await core.use('script-loading', this.onScriptLoading);
@@ -63,6 +74,10 @@ export default class CustomScene extends Component {
         core.post('script-mode', { mode: 'skip' });
       }
     });
+    this.interval = setInterval(() => {
+      this.loop();
+    }
+    , 1);
   }
   componentDidUpdate(prevProps) {
     const chapter = this.props.params.chapter;
@@ -93,6 +108,9 @@ export default class CustomScene extends Component {
     });
     await next();
   }
+  sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
   async routerCommand(ctx, next) {
     const { command, flags, params } = ctx;
     if (command === 'router') {
@@ -108,6 +126,16 @@ export default class CustomScene extends Component {
       }else{
         window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
       }
+    }else if(command==="shake"){
+      console.log(core);
+      if(flags.includes("on")){
+        this.setState({shaking: true})
+      }else if (flags.includes("off")){
+        this.setState({shaking: false})
+      }
+    }else if(command==="wait"){
+      var ms = params.ms;
+      await this.sleep(ms);
     }
     await next();
   }
@@ -141,14 +169,17 @@ export default class CustomScene extends Component {
             bgFile='textwindow/bg.png'
             size={40} color={0xffffff} bold={false} speed={80}
             x={50} y={650} textRect={[300, 150, 600, 150]} yInterval={6}
+            style={{"fontFamily": ['demon', 'PingFang SC']}}
           >
-            <Namebox x={300} y={80} />
+            <Namebox x={300} y={82} />
+            {/*
             <Textbutton text='Save' style={{ fontSize: 16, lineHeight: 16 }} position={[490, 200]} anchor={[0.5, 1]} onPointerTap={e => this.goto(e, 'save')}/>
             <Textbutton text='Load' style={{ fontSize: 16, lineHeight: 16 }} position={[540, 200]} anchor={[0.5, 1]} onPointerTap={e => this.goto(e, 'load')}/>
             <Textbutton text='Auto' style={{ fontSize: 16, lineHeight: 16 }} position={[590, 200]} anchor={[0.5, 1]} onPointerTap={this.auto.bind(this)}/>
             <Textbutton text='Skip' style={{ fontSize: 16, lineHeight: 16 }} position={[640, 200]} anchor={[0.5, 1]} onPointerTap={this.skip.bind(this)}/>
             <Textbutton text='History' style={{ fontSize: 16, lineHeight: 16 }} position={[700, 200]} anchor={[0.5, 1]} onPointerTap={e => this.goto(e, 'history')}/>
             <Textbutton text='Option' style={{ fontSize: 16, lineHeight: 16 }} position={[765, 200]} anchor={[0.5, 1]} onPointerTap={e => this.goto(e, 'option')}/>
+            */}
           </Textwindow>
         </Layer>
         {this.props.children}

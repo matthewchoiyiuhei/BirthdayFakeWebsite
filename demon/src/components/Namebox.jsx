@@ -3,7 +3,7 @@ import { React, Component, components, core } from 'avg-core';
 const { Image, Text } = components;
 
 const style = {
-  fontFamily: ['微软雅黑', 'PingFang SC'],
+  fontFamily: ['demon', 'PingFang SC'],
   fontSize: 36,
   fontStyle: 'bold',
   lineHeight: 18,

@@ -33,15 +33,15 @@
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="HandheldFriendly" content="true">
 
-        <link rel="icon" href="icon64.png" sizes="64x64" type="image/png">
-        <link rel="icon" href="icon128.png" sizes="128x128" type="image/png">
-        <link rel="icon" href="icon192.png" sizes="192x192" type="image/png">
-        <link rel="shortcut icon" href="icon64.png" sizes="64x64" type="image/png">
-        <link rel="shortcut icon" href="icon128.png" sizes="128x128" type="image/png">
-        <link rel="shortcut icon" href="icon192.png" sizes="192x192" type="image/png">
-        <link rel="apple-touch-icon-precomposed" href="icon64.png" sizes="64x64" type="image/png">
-        <link rel="apple-touch-icon-precomposed" href="icon128.png" sizes="128x128" type="image/png">
-        <link rel="apple-touch-icon-precomposed" href="icon192.png" sizes="192x192" type="image/png">
+        <link rel="icon" href="64.gif" sizes="64x64" type="image/gif">
+        <link rel="icon" href="128.gif" sizes="128x128" type="image/gif">
+        <link rel="icon" href="192.gif" sizes="192x192" type="image/gif">
+        <link rel="shortcut icon" href="64.gif" sizes="64x64" type="image/gif">
+        <link rel="shortcut icon" href="128.gif" sizes="128x128" type="image/gif">
+        <link rel="shortcut icon" href="192.gif" sizes="192x192" type="image/gif">
+        <link rel="apple-touch-icon-precomposed" href="64.gif" sizes="64x64" type="image/gif">
+        <link rel="apple-touch-icon-precomposed" href="128.gif" sizes="128x128" type="image/gif">
+        <link rel="apple-touch-icon-precomposed" href="192.gif" sizes="192x192" type="image/gif">
 
         <script type="text/javascript" src="libs/pixi.min.js" charset="utf-8"></script>
         <script type="text/javascript" src="libs/avg.min.js" charset="utf-8"></script>
@@ -60,6 +60,86 @@
                 -webkit-touch-callout: none;
                 -webkit-user-select: none;
             }
+            @font-face {
+                font-family: 'demon';
+                src: URL('Brush.ttf') format('truetype');
+            }
+            * {
+                font-family: 'demon';
+            }
+            .icon {
+                position: relative;
+                overflow: hidden;
+                width: 50px;
+                height: 50px;
+                display: inline-block;
+                
+                margin: 25px 0 25px 25px;
+                border-radius: 5px;
+                color: #fff;
+                text-decoration: none;
+                text-align: center;
+                line-height: 50px;
+                font-size: 12px;
+                font-family: sans-serif;
+                }
+
+                .icon:nth-child(1) { background: cornflowerblue; }
+                .icon:nth-child(2) { background: salmon; }
+                .icon:nth-child(3) { background: gray; }
+
+                /**
+                * The "shine" element
+                */
+
+                .icon:after {
+                
+                animation: shine 5s ease-in-out  infinite;
+                animation-fill-mode: forwards;  
+                content: "";
+                position: absolute;
+                top: -110%;
+                left: -210%;
+                width: 200%;
+                height: 200%;
+                opacity: 0;
+                transform: rotate(30deg);
+                
+                background: rgba(255, 255, 255, 0.13);
+                background: linear-gradient(
+                    to right, 
+                    rgba(255, 255, 255, 0.13) 0%,
+                    rgba(255, 255, 255, 0.13) 77%,
+                    rgba(255, 255, 255, 0.5) 92%,
+                    rgba(255, 255, 255, 0.0) 100%
+                );
+                }
+
+                /* Hover state - trigger effect */
+
+
+                /* Active state */
+
+                .icon:active:after {
+                opacity: 0;
+                }
+
+                @keyframes shine{
+                10% {
+                    opacity: 1;
+                    top: -30%;
+                    left: -30%;
+                    transition-property: left, top, opacity;
+                    transition-duration: 0.7s, 0.7s, 0.15s;
+                    transition-timing-function: ease;
+                }
+                100% {
+                    opacity: 0;
+                    top: -30%;
+                    left: -30%;
+                    transition-property: left, top, opacity;
+                }
+                }
         </style>
     </head>
     <body>

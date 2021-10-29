@@ -6,7 +6,7 @@ const { Text } = components;
 const { Checkbox, Button } = ui;
 
 const style = {
-  fontFamily: ['微软雅黑', 'PingFang SC'],
+  fontFamily: ['demon', 'PingFang SC'],
   fontSize: 28,
   fontStyle: 'normal',
   lineHeight: 36,

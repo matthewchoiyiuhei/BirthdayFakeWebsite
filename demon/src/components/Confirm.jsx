@@ -4,7 +4,7 @@ const { Image, Text } = components;
 const { Dialog, Button } = ui;
 
 const style = {
-  fontFamily: ['微软雅黑', 'PingFang SC'],
+  fontFamily: ['demon', 'PingFang SC'],
   fontSize: 35,
   fontStyle: 'normal',
   lineHeight: 40,
