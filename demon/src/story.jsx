@@ -120,11 +120,11 @@ export default class CustomScene extends Component {
         this.context.router.goBack();
       }
     }
-    else if (command === 'rickroll') {
-      if (flags.includes('newtab')) {
-        window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", '_blank');
-      }else{
-        window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+    else if (command === 'opentab') {
+      if (flags.includes('rickroll')) {
+        window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', "_blank");
+      }else if(flags.includes("tongshen")){
+        window.open('https://www.youtube.com/watch?v=072tU1tamd0', "_blank")
       }
     }else if(command==="shake"){
       console.log(core);
