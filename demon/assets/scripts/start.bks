@@ -1,0 +1,11 @@
+[bg file='common/bg.png']
+[text show]
+【某一天】  [p]
+[fg file='fg/Nezuko/cry.png' right trans]
+【禰豆子】
+Klean哥哥欺負我..[l] 
+嗚嗚嗚...[p]
+【你】
+哭啊 [l]
+他媽你再哭啊 [p]
+[selection FL=[['nezuko happy','好啦對不起啦..'],['nezuko angry','你他媽再裝啊']]]
