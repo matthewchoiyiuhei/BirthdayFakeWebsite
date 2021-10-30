@@ -1,9 +1,0 @@
-{
-  "resources": [
-    "bg\\explosion.jpeg",
-    "common\\bg.png",
-    "dialog\\bg.png",
-    "fg\\luo.png",
-    "textwindow\\bg.png"
-  ]
-}

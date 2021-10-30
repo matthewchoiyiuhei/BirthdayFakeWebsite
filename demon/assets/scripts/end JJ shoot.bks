@@ -27,9 +27,26 @@
 [fg clear center]
 [bg file="bg/rubbish.jpg" trans]
 【】
-10年後， [l] 有2個考古學家在遺跡中發現了了..[l]一個鮑魚和龜頭[p]
+10年後， [l] 有2個考古學家在遺跡中發現了..[l]一個鮑魚和龜頭[p]
 它們到最後一刻還是緊緊地插在一起[p]
 或許..[l]這就是他們的羈絆吧..[p]
 【Happy end】
 龜頭與鮑魚 [p]
+
+[sound channel='bgm' src='assets/bgm/normal.mp3' loop=true preload=true exclusive=true]
+[bg file='bg/sky.jpg']
+【】
+今天是Klean的生日
+【G7】
+Klean生日快樂![l] 希望呢個作品能夠博君一笑啦~[p]
+勇敢去追尋自己想做既野啦[l] 唔准放棄呀rrr[p]
+【plum】
+Klean生日快樂![l] 屌你老母![p]
+【Hanzo】
+感謝你為gkpl的付出[p]
+【Skytim】
+生日快樂![l] 你真係好幸福, 有甘好ge friend XD[p]
+【okhiokhi】
+生日快ㄌ[l]88[p]
+
 [selection FL=[['start','重新開始'],['rickroll','彌豆子泳衣福利']]]
