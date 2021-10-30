@@ -13,5 +13,6 @@ Perfect!
 [opentab tongshen]
 【Bad end】
 你摔倒地上了[p]
+再點擊一下回到checkpoint[p]
 [router push path='story/dance battle']
 #end
