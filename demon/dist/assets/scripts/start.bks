@@ -1,4 +1,4 @@
-[sound channel='bgm' src='assets/bgm/normal.mp3' loop=true preload=true exclusive=false]
+[sound channel='bgm' src='assets/bgm/normal.mp3' loop=true preload=true exclusive=true]
 [bg file='bg/bedroom.png']
 [text show]
 【】

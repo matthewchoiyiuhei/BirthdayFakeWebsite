@@ -1,3 +1,10 @@
 {
-  "resources": []
+  "resources": [
+    "bg\\rubbish.jpg",
+    "common\\bg.png",
+    "dialog\\bg.png",
+    "fg\\doraemon.png",
+    "textwindow\\bg.png",
+    "title\\start.png"
+  ]
 }

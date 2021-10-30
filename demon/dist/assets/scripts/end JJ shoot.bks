@@ -1,8 +1,34 @@
-【】
-看著彌豆子逐漸消失的身軀，我不能哭，必須忍住尿液，給我像個男人一樣最後一次尿在她身上。[p]
-【彌豆子】
-你很用力了呢……Klean…… [p]
 【我】
-為什麼..到底為什麼....嗚..[p]
+看著彌豆子逐漸消失的身軀..[l]我不能哭..[l]必須忍住口水..[l]不能生吃鮑魚。[p]
+【彌豆子】
+我要走了呢……[l]Klean…… [p]
+【我】
+為什麼..到底為什麼....[l]嗚..[p]
+不行..[l] 如果你一定要走的話..[p]
+那我也要..[l]變成龜頭..[l]跟你一起走..[p]
+【彌豆子】
+別..![p]
+[fg clear center]
+[bg file="bg/explosion.jfif"]
+【我】
+啊啊啊啊啊啊!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![p]
+[sound channel='sound' src='assets/sound/explosion.mp3']
+[sound channel='sound' src='assets/sound/explosion.mp3']
+[sound channel='sound' src='assets/sound/explosion.mp3']
+[sound channel='sound' src='assets/sound/explosion.mp3']
+[sound channel='sound' src='assets/sound/explosion.mp3']
+[shake on]
+[wait ms=1000]
+[shake off]
+[fg file='fg/doraemon.png' center]
+【多啦A夢】
+哎呀，金翅仆街鳥..[p]
 
-[selection FL=[['end JJ explosion','再用力點'],['end nezuko gone','突然收縮，之後突然加大力度!']]]
+[fg clear center]
+[bg file="bg/rubbish.jpg"]
+【】
+10年後， [l] 有2個考古學家在遺跡中發現了一個鮑魚和龜頭[p]
+它們到最後一刻還是緊緊地插在一起[p]
+【Happy end】
+龜頭與鮑魚 [p]
+[selection FL=[['start','重新開始'],['rickroll','彌豆子泳衣福利']]]

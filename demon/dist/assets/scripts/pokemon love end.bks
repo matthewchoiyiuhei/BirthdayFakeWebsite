@@ -16,10 +16,6 @@
 別説了..[p]
 【羅志祥】
 再見了, klean [l], 謝謝你 一直喜歡這樣沒出色的我[p]
-【我】
-！！[l]別..![p]
 【】
-羅志祥從30樓跳下去了[p]
-【Sad end】
-鮑魚掉地上了[p]
-[router push path="/story/pokemon start"]
+羅志祥似乎要做什麽[p]
+[selection FL=[['kill nezuko end','我喜歡你啊羅志祥'],['luo jump end','他媽的貢丸']]]
