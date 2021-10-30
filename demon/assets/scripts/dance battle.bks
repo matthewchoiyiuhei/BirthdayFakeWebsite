@@ -5,7 +5,6 @@
 [sound channel='jjflap' src='assets/sound/jjflap.mp3' loop=true]
 
 [fg clear center]
-[fg file='fg/luo_dance_1.png' center]
 #let %flapAmount = 0
 #let %previousFlapDirection = -1
 [selection FL=[['front flapJJ','向前甩JJ']]]
