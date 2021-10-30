@@ -7,7 +7,10 @@
 不行..[l] 如果你一定要走的話..[p]
 那我也要..[l]變成龜頭..[l]跟你一起走..[p]
 【彌豆子】
-別..![p]
+別..![l]快停下來..![p]
+【我】
+已經太遲了..[p]
+奧義..[l]龜頭變身舞[p]
 [fg clear center]
 [bg file="bg/explosion.jfif"]
 【我】
@@ -20,15 +23,13 @@
 [shake on]
 [wait ms=1000]
 [shake off]
-[fg file='fg/doraemon.png' center]
-【多啦A夢】
-哎呀，金翅仆街鳥..[p]
 
 [fg clear center]
-[bg file="bg/rubbish.jpg"]
+[bg file="bg/rubbish.jpg" trans]
 【】
-10年後， [l] 有2個考古學家在遺跡中發現了一個鮑魚和龜頭[p]
+10年後， [l] 有2個考古學家在遺跡中發現了了..[l]一個鮑魚和龜頭[p]
 它們到最後一刻還是緊緊地插在一起[p]
+或許..[l]這就是他們的羈絆吧..[p]
 【Happy end】
 龜頭與鮑魚 [p]
 [selection FL=[['start','重新開始'],['rickroll','彌豆子泳衣福利']]]

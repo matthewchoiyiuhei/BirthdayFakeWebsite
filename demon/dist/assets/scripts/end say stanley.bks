@@ -1,5 +1,9 @@
 【我】
 太無情了粉鮑魚..[p]
 真的..[l]真的太無情了..![p]
-
+無情單殺! 
+[wait ms=200]
+無情雙
+[wait ms=100]
+[text clear]
 [router push path="/story/end JJ shoot"]
