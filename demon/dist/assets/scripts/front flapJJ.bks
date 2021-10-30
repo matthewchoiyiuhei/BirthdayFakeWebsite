@@ -6,6 +6,7 @@
 #%previousFlapDirection = 1
 【】
 Perfect! 
+[fg file='fg/luo_dance_1.png' center]
 #%flapAmount = %flapAmount + 1
 [selection FL=[['choose front flapJJ','向前甩'],['choose back flapJJ','向後甩']]]
 #else
