@@ -15,7 +15,7 @@ class Textbutton extends Component {
     return (
       <Button
         {...this.props}
-        src={'option/option_button.gif'} x={this.props.x} y={this.props.y} anchor={[0, 0]}
+        src={'option/option_button.png'} x={this.props.x} y={this.props.y} anchor={[0, 0]}
         onClick={this.props.onClick} onTap={this.props.onTap} lite={false}
 
       >
