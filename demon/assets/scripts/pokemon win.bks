@@ -6,8 +6,9 @@
 彌豆子突然擋在了你前面[p]
 [sound channel='voice' src='assets/sound/dun fight.mp3']
 【彌豆子】
-求求你們...不要再打了![p]
+求求你們...不要再打了![l]
 [wait ms=1000]
+[p]
 【彌豆子】
 你沒事吧? 鮑志祥..[p]
 【鮑志祥】
