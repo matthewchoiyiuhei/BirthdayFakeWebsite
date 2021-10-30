@@ -1,0 +1,36 @@
+[sound channel='bgm' src='assets/bgm/normal.mp3' loop=true preload=true exclusive=false]
+[bg file='bg/bedroom.png']
+[text show]
+【】
+陽光由窗簾的縫隙溜了進來，我揉了揉眼睛。[p]
+【我】
+不行..[l]，我要再睡一會[l]，好不容易夢到彌豆子……[p]
+【】
+離最後一戰已經六年了，大家都不知道的是實際上炭治郎還有柱他們都在兩年内死光了，而彌豆子也沒有逃過一劫。[p]
+[shake on]
+[wait ms=500]
+[shake off]
+
+[fg file='fg/questionmark.png' right]
+【?】
+給我起床！！！ [p]
+【我】
+是彌豆子的聲音~~~ [p]
+[shake on]
+[wait ms=500]
+[shake off]
+【?】
+起床啦！！！ [p]
+【我】
+彌豆子的聲音還是很可愛哦~~~ [p]
+【?】
+！！！[l]
+……唔嗯！！！[p]
+
+
+[fg file='fg/Nezuko/cry.png' right trans preload=true]
+【我】
+彌……豆子……？[p]
+【彌豆子】
+唔姆 ！ [p]
+[selection FL=[['fight nezuko','劈她'],['fuck nezuko','姦她']]]
