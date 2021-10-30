@@ -1,0 +1,7 @@
+{
+  "resources": [
+    "common\\bg.png",
+    "dialog\\bg.png",
+    "textwindow\\bg.png"
+  ]
+}

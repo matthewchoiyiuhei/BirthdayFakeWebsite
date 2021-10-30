@@ -1,0 +1,16 @@
+{
+  "resources": [
+    "bg\\explosion.jpeg",
+    "bg\\rubbish.jpg",
+    "bg\\sky.jpg",
+    "common\\bg.png",
+    "dialog\\bg.png",
+    "textwindow\\bg.png",
+    "title\\load.png",
+    "title\\start.png",
+    "fg\\Nezuko\\normal.png",
+    "fg\\Nezuko resized\\normal.png",
+    "fg\\fire\\normal.png",
+    "fg\\flash guy\\normal.png"
+  ]
+}
