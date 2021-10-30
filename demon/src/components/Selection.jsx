@@ -15,9 +15,9 @@ class Textbutton extends Component {
     return (
       <Button
         {...this.props}
-        src={'option/option_button.gif'} x={this.props.x} y={this.props.y} anchor={[0,0]}
+        src={'option/option_button.gif'} x={this.props.x} y={this.props.y} anchor={[0, 0]}
         onClick={this.props.onClick} onTap={this.props.onTap} lite={false}
-        
+
       >
         <Text text={this.props.text} style={style} x={280} y={185} anchor={this.props.anchor} />
       </Button>
@@ -73,7 +73,10 @@ export default class Selection extends Component {
     this.setState({
       selections: [],
       enabled: false
-    }, () => this.context.router.push(`/story/${name}`))
+    }, () => {
+      this.context.router.push("/story/empty");
+      this.context.router.push(`/story/${name}`);
+    })
   }
   render() {
 

@@ -1,0 +1,10 @@
+{
+  "resources": [
+    "bg\\pokemon.jpg",
+    "common\\bg.png",
+    "dialog\\bg.png",
+    "textwindow\\bg.png",
+    "title\\load.png",
+    "title\\start.png"
+  ]
+}

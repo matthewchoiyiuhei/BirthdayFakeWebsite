@@ -13,7 +13,7 @@
 [sound channel='doraemon' src='assets/sound/doraemon.mp3']
 [wait ms=300]
 【多啦A夢】
-Yo yo，關我L事，你老母蛋治，食個喬治，食你過橋屎！[p]
+Yo yo[l]，關我L事[l]，你老母蛋治[l]，食個喬治[l]，食你過橋屎！[p]
 【我】
 不……不是，，但是……爲什麽你們會在這裏？[p]
 [fg clear right]

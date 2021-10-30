@@ -1,13 +1,1 @@
-#if %flapAmount > 10
-[router push path='story/won dance']
-#elseif %previousFlapDirection==1
-#%previousFlapDirection = -1
-【】
-Perfect! 
-#%flapAmount = %flapAmount + 1
-[selection FL=[['front flapJJ','向前甩'],['back flapJJ','向後甩']]]
-#else
-[opentab tongshen]
-【Bad end】
-你摔倒地上了[p]
-#end
+[router push path='story/back flapJJ']

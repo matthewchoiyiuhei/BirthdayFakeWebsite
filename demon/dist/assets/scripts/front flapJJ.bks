@@ -1,6 +1,6 @@
 #if %flapAmount > 10
-【】
-啪! [l]
+【羅志祥的JJ】
+啪! [p]
 [router push path='story/won dance']
 #elseif %previousFlapDirection==-1
 #%previousFlapDirection = 1
