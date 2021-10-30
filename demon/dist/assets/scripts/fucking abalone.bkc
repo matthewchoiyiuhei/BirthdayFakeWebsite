@@ -1,0 +1,12 @@
+{
+  "resources": [
+    "bg\\pokemon.jpg",
+    "fg\\doraemon.png",
+    "fg\\Nezuko\\normal small.png",
+    "fg\\Nezuko\\normal.png",
+    "fg\\Nezuko resized\\normal small.png",
+    "fg\\Nezuko resized\\normal.png",
+    "fg\\fire\\normal.png",
+    "fg\\flash guy\\normal.png"
+  ]
+}

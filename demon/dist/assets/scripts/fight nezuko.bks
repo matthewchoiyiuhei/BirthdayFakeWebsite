@@ -1,0 +1,31 @@
+【】
+我揮劍后發現沒有砍中的實感 [p]
+【我】
+彌豆子已經死了，你是誰？！[p]
+【彌豆子】
+我是臭鮑魚！[p]
+【我】
+不可能，鮑魚怎麼會講話？！[p]
+【彌豆子】
+因為我吃了翻譯年糕! [p]
+[fg clear right]
+[fg file='fg/doraemon.png' right trans]
+[sound channel='doraemon' src='assets/sound/doraemon.mp3']
+[wait ms=300]
+【多啦A夢】
+Yo yo[l]，關我L事[l]，你老母蛋治[l]，食個喬治[l]，食你過橋屎！[p]
+【我】
+不……不是，，但是……爲什麽你們會在這裏？[p]
+[fg clear right]
+[fg file='fg/Nezuko/cry.png' right trans]
+【禰豆子】
+因為..人..人家想..想... [p]
+【我】
+嗯..?[l] (禰豆子害羞的樣子好可愛.. [p]
+[fg clear right]
+[fg file='fg/Nezuko/normal.png' right]
+【禰豆子】
+人家..[l] 人家想來跟你玩rap battle! [p]
+【多啦A夢】
+DJ drop the beat! [p]
+[router push path='story/nezuko rap']

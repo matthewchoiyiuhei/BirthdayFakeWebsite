@@ -1,0 +1,10 @@
+{
+  "resources": [
+    "bg\\explosion.jpeg",
+    "bg\\rubbish.jpg",
+    "common\\bg.png",
+    "dialog\\bg.png",
+    "textwindow\\bg.png",
+    "title\\start.png"
+  ]
+}

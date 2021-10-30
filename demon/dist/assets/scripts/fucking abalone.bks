@@ -1,0 +1,46 @@
+【我】
+爲什麽...[l]爲什麽大家都是鮑魚...[l]你們他媽是在排擠我嗎!?[p]
+【羅志祥】
+Klean...[l]
+【我】
+那我也變成鮑魚好了！[l]操你媽!![p]
+【羅志祥】
+不要啊Klean！[p]
+[sound channel='sound' src='assets/sound/stab.mp3']
+【】
+你用刀捅死了自己[l]，身上突然發出了臭味并且開始縮小。[p]
+【羅志祥】
+難...[l]難道... [p]
+【我】
+鮑魚鮑魚！ [p]
+【羅志祥】
+鮑魚鮑魚！[p]
+[fg file="fg/Nezuko/normal small.png" right trans]
+【彌豆子】
+？？？？？？？？？？？ [p]
+【我&羅志祥】
+鮑魚鮑魚！！！！！！！！ [p]
+【彌豆子】
+難道是...[l]！！！！[l]失傳已久的石破天驚LOVELOVE超級究極鮑魚鮑魚彈彈跳跳術？！[p]
+【】
+我&羅志祥對彌豆子使出了石破天驚LOVELOVE超級究極鮑魚鮑魚彈彈跳跳術！[l]效果顯著！[p]
+【彌豆子】
+嗚啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊！！！！[p]
+好臭啊啊啊啊啊！！！！！！！！！！！ [p]
+[fg clear right trans]
+【】
+彌豆子被臭死了。 [p]
+[fg file="fg/doraemon.png" right trans]
+【多啦A夢】
+食翻譯年糕啦柒頭皮！！！ [p]
+[fg clear right trans]
+【我】
+鮑魚鮑魚！！！[l]（成功了！！！）[p]
+【羅志祥】
+鮑魚鮑魚鮑魚鮑魚！！！！[l]（我們終於可以在一起了！！！！） [p]
+【】
+於是Klean和羅志祥在一起過上了沒羞沒操的生活。 [p]
+【Secret End】
+空幹王之戀 [p]
+再點擊一下回到checkpoint[p]
+[router push path="/story/pokemon love end"]
