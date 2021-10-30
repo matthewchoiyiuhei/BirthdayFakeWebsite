@@ -163,7 +163,7 @@ export default class CustomScene extends Component {
         onClick={this.handleClick.bind(this)} onTap={this.handleClick.bind(this)}>
         <Layer>
           <BGImage />
-          <FGImage width={1920} height={1500}/>
+          <FGImage width={1920} height={1080}/>
           <Selection />
           <Textwindow
             bgFile='textwindow/bg.png'

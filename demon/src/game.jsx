@@ -34,7 +34,7 @@ export default class Game extends Component {
             <Route path='info' component={Info} />
             <Route path='option' component={Option} />
           </Route>
-          <Route path='story/:chapter' component={Story} onLeave={() => core.plugins.audio.stopAll()}>
+          <Route path='story/:chapter' component={Story} onLeave={() => {}}>
             <Route path='save' component={Save} onEnter={() => core.plugins.shot.shot(191, 98)}/>
             <Route path='load' component={Load} />
             <Route path='history' component={History} />

@@ -11,7 +11,7 @@
 [wait ms=500]
 [shake off]
 
-[fg file='fg/questionmark' center]
+[fg file='fg/questionmark.png' right]
 【?】
 給我起床！！！ [p]
 【我】
@@ -28,7 +28,7 @@
 ……唔嗯！！！[p]
 
 
-[fg file='fg/Nezuko/cry.png' right trans]
+[fg file='fg/Nezuko/cry.png' right trans preload=true]
 【我】
 彌……豆子……？[p]
 【彌豆子】
