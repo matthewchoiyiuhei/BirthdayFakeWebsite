@@ -74,7 +74,6 @@ export default class Selection extends Component {
       selections: [],
       enabled: false
     }, () => {
-      this.context.router.push("/story/empty");
       this.context.router.push(`/story/${name}`);
     })
   }

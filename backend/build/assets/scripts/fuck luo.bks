@@ -1,0 +1,14 @@
+[sound channel='bgm' src='assets/bgm/sad2.mp3' loop=true preload=true]
+[fg clear right]
+[bg file='bg/wall.jpg']
+【】
+你把羅志祥推到墻上 [p]
+【羅志祥】
+我沒了JJ.. 很快就會變成鮑魚了..[p]
+【我】
+你..你別擅自變成鮑魚啊！[l]沒了你.. 我要怎麽辦..[p]
+【羅志祥】
+再見了..[p]
+【我】
+我絕對會讓你變回人類的.. [p]
+[router push path="/story/pokemon start"]

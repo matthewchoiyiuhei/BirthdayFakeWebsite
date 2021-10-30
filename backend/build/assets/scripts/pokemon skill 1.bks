@@ -1,0 +1,21 @@
+[sound channel='attack' src='assets/sound/keep_attack.mp3']
+【】
+Klean使用了雷切 [p]
+對羅志祥造成了3點傷害，但顯然沒有效。[p]
+#%round = %round +1
+#%abaloneHealth = %abaloneHealth -3
+
+[shake on]
+[wait ms=300]
+[shake off]
+[sound channel='attack' src='assets/sound/water.mp3']
+【】
+羅志祥使出了鮑魚彈跳，但顯然沒有效。[p]
+
+#if %abaloneHealth < 1
+[router push path="/story/pokemon win"]
+#elseif %round > 10
+[router push path="/story/pokemon love end"]
+#else
+[selection FL=[['pokemon choose skill 1','雷切'],['pokemon choose skill 2','死亡伏特'],['pokemon choose mercy','撫摸']]]
+#end

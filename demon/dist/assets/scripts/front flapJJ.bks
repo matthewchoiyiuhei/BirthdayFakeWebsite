@@ -2,7 +2,7 @@
 【羅志祥的JJ】
 啪! [p]
 [router push path='story/won dance']
-#elseif %previousFlapDirection==-1
+#elseif %previousFlapDirection == -1
 #%previousFlapDirection = 1
 【】
 Perfect! 

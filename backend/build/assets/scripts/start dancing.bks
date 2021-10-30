@@ -1,0 +1,11 @@
+[sound channel='bgm' src='assets/bgm/dance music.mp3' loop=true]
+
+【我】
+(前後用力地甩JJ)[p]
+[fg file='fg/luo.png' center]
+[sound channel='sound' src='assets/sound/explosion.mp3']
+【】
+羅志祥破門而入了![p]
+【羅志祥】
+你他媽的竟然敢學我？[p]
+[router push path='/story/dance battle']
