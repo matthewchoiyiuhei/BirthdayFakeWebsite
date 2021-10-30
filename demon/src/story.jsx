@@ -168,7 +168,7 @@ export default class CustomScene extends Component {
           <Textwindow
             bgFile='textwindow/bg.png'
             size={40} color={0xffffff} bold={false} speed={80}
-            x={50} y={650} textRect={[300, 150, 600, 150]} yInterval={6}
+            x={50} y={650} textRect={[300, 170, 1300, 170]} yInterval={6}
             style={{"fontFamily": ['demon', 'PingFang SC']}}
           >
             <Namebox x={300} y={82} />
