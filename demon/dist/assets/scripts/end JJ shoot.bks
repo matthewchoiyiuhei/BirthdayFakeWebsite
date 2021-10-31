@@ -23,7 +23,7 @@
 [shake on]
 [wait ms=1000]
 [shake off]
-
+[wait ms=1000]
 [fg clear center]
 [bg file="bg/rubbish.jpg" trans]
 【】
@@ -32,7 +32,7 @@
 或許..[l]這就是他們的羈絆吧..[p]
 【Happy end】
 龜頭與鮑魚 [p]
-
+[sound channel='bgm' fadeout duration=2]
 [sound channel='bgm' src='assets/bgm/normal.mp3' loop=true preload=true exclusive=true]
 [bg file='bg/sky.jpg']
 【】

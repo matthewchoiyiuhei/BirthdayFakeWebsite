@@ -25,6 +25,4 @@
 那麽怎麽辦？[l]劇本又不是我寫的。[p]
 【羅志祥】
 唉算了算了[l]，我先變鮑魚[l]，你自己看著辦吧。[p]
-【我】
-好嘞。[p]
 [router push path="/story/pokemon start"]
